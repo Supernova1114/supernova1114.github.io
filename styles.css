@@ -12,7 +12,7 @@
     padding: 25px 50px;
     text-align: center;
     display: inline-block;
-    font-size: 16px;
+    font-size: 40px;
     text-decoration: none;
 }
 
@@ -42,4 +42,29 @@ body {
     color: white;
     font-family: sans-serif
     
+}
+
+.page-title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.portrait-image {
+    width: 25%;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.about-me-list {
+    font-size: 30px;
+    list-style-type: square;
+    padding-left: 25px;
+    margin: 0;
 }
