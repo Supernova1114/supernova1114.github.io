@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selected Button</title>
+    <style>
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: lightgray;
+            border: 2px solid gray;
+        }
+
+        .selected {
+            background-color: blue;
+            color: white;
+            border: 2px solid darkblue;
+        }
+    </style>
+</head>
+<body>
+
+    <button class="button" onclick="toggleSelected(this)">Click me</button>
+
+    <script>
+        function toggleSelected(button) {
+            button.classList.toggle("selected");
+        }
+    </script>
+
+</body>
+</html>

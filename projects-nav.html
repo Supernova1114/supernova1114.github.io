@@ -1,0 +1,21 @@
+<html>
+    <head></head>
+    <nav>
+        <ul class="proj-nav-list">
+            <li class="list-item"><a class="proj_nav_button" href="robotics-projects.html">Robotics</a></li>
+            <li class="list-item"><a class="proj_nav_button" href="simulation-projects.html">Simulation</a></li>
+            <li class="list-item"><a class="proj_nav_button" href="software-projects.html">Software</a></li>
+            <li class="list-item"><a class="proj_nav_button" href="game-dev-projects.html">Game Dev</a></li>
+        </ul>
+    </nav>
+
+    <script>
+        $(document).ready(function() {
+            var currentDir = window.location.pathname.substring(1)
+            $(".proj_nav_button[href='" + currentDir + "']").addClass("proj-nav-button-selected")
+        });
+    </script>
+    
+    
+</html>
+

@@ -15,8 +15,29 @@
         });
     </script>
     <!--end of Navigation bar-->
+
+    <!-- Projects Navigation bar-->
+    <script>
+        $(function(){
+          $("#proj-nav-placeholder").load("projects-nav.html");
+        });
+    </script>
+    <!--end of Projects Navigation bar-->
+
+    <script>
+        $(function(){
+          var default_page = "robotics-projects.html";
+          window.location.href = default_page;
+        });
+    </script>
+
+
+
 </head>
 <body>
     <div id="nav-placeholder"></div>
+    <div id="proj-nav-placeholder"></div>
+
+    <h1 class="page-title"></h1>
 </body>
 </html>
