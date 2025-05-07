@@ -109,7 +109,24 @@ body {
     background-color: #2f3239;
 }
 
-.video_frame {
+.video-frame {
     margin: 10px;
-    border: none;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.img-frame {
+    margin: 10px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.proj-desc {
+    width: 30%;
+    margin-left: 100px;
+    align-self: center;   
 }
