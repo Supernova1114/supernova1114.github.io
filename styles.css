@@ -128,5 +128,16 @@ body {
 .proj-desc {
     width: 30%;
     margin-left: 100px;
-    align-self: center;   
+    align-self: center; 
+    font-size: 20px;
+}
+
+.links-list {
+    font-size: 50px;
+    list-style-type: none;
+    justify-self: center;
+}
+
+.social-links {
+    color: white;
 }
