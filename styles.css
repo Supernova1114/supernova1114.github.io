@@ -132,12 +132,40 @@ body {
     font-size: 20px;
 }
 
-.links-list {
-    font-size: 50px;
-    list-style-type: none;
+.social-links {
+    font-size: 70px;
     justify-self: center;
+    /* color: #222329; */
+    color: #484b53;
+
+    margin: 20px;
+    
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    /* height: 100px; */
+
+    display: block;
+    text-align: right;
+    text-decoration: none;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.social-links {
-    color: white;
+.social-link-img {
+    align-self: center;
+    width: 70px;
+    height: 70px;
+}
+
+.social-link-txt {
+    align-self: center;
+}
+
+.flex-container-custom {
+    display: flex;
+    justify-content: space-between;
 }
